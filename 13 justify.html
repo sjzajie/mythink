@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>两端对齐</title>
+	<style>
+	p{
+		text-align: justify;
+	}
+	/* 固定套路 记住就OK */
+	p:after{
+		content: "";
+		display: inline-block;
+		width: 100%;
+	}
+	</style>
+</head>
+<body>
+	<p>奔跑吧，兄弟！每周五，不见不散。</p>
+</body>
+</html>
